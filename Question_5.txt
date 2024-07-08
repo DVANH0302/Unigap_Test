@@ -1,0 +1,26 @@
+1. 
+mv text.txt Linux Project
+
+2. 
+cat text.txt
+
+3. 
+echo "Let's Learn Linux" >> text.txt
+
+4. 
+sed -n '$=' text.txt
+
+5. 
+grep "Love" text.txt
+
+6. 
+sed -i 's/Make/Do/g' text.txt
+
+7. 
+awk '{ print $3}' text.txt
+
+8. 
+while read line; do echo $line |  wc -w; done < text.txt
+
+9.
+
